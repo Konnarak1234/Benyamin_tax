@@ -4,13 +4,11 @@
       <div class="service-box-image">
           <img :src="require(`@/assets/${service.img}`)" alt="">
       </div>
-      <div class="service-box-context">
-          <h3>{{ service.title }}</h3>
-          <p>{{ service.body }}</p>
-          <router-link to="/">
-            <label>Read more</label>
-          </router-link>
-      </div>
+
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.body }}</p>
+        <label>Read more</label>
+
     </router-link>
   </div>
 </template>
@@ -28,7 +26,13 @@ props: [ 'service' ]
 
 .service-box{
 max-width: 500px;
+min-height: 400px;
 box-shadow: 0 4px 6px #fff;
+background: #111c26;
+
+}
+.service-box a{
+  text-decoration: none;
 }
 
 .service-box-image{
@@ -44,33 +48,27 @@ box-shadow: 0 4px 6px #fff;
 
 }
 
-.service-box-context{
-  background: #111c26;
-  padding: 0 20px 10px 20px;
-}
-
-
-.service-box-context h3{
-  padding: 5px;
+.service-box h3{
+  padding:5px;
   color: #ffb703;
   margin: 0;
   letter-spacing: 1px;
 }
 
-.service-box-context p{
+.service-box p{
   padding: 10px 0;
   margin: 0;
   color: #ddd;
   font-size: 14px;
 }
 
-.service-box-context a{
+.service-box label{
   displaY: block;
   color: #ffb703;
   text-decoration: none;
 }
 
-.service-box-context label:hover{
+.service-box label:hover{
   cursor: pointer;
 }
 

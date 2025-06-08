@@ -16,12 +16,12 @@
     <HomeContactBox id="more"/>
     <div class="home-content-wedo">
       <h2>WHAT <span>WE DO</span></h2>
-      <p>We provide a dedicated team of accounting professionals & software to suit your business needs.</p>
+      <p>At BBC, we provide a full spectrum of professional services designed to support your business at every stage—from launch to growth and beyond. Our core offerings include:</p>
       <div class="home-wedo-nav">
-        <label @click="handleWedo(1)">Business Registration</label>
-        <label @click="handleWedo(2)">Tax Services</label>
-        <label @click="handleWedo(3)">Accounting Services</label>
-        <label @click="handleWedo(4)">Accounting Software</label>
+        <label @click="handleWedo(1)">Business Registration & Compliance</label>
+        <label @click="handleWedo(2)">Taxation Service</label>
+        <label @click="handleWedo(3)">Accounting & Bookkeeping</label>
+        <label @click="handleWedo(4)">Trademark & IP Services</label>
       </div>
     </div>
   </div>
@@ -48,35 +48,35 @@ export default {
       toggleWedo: 1,
       services: [
             {
-              img: 'angkorwat.jpg',
+              img: 'company-registration.jpg',
               url: 'service1',
-              title: 'Business Registration',
-              body: 'We can help you with the whole company registration process from scratch.',
+              title: 'Business Registration & Compliance',
+              body: 'We simplify the process of business formation and ensure all legal and regulatory requirements are met.',
             },
             {
-              img: 'service.webp',
+              img: 'trademark.jpg',
               url: 'service2',
-              title: 'Trademark Registration',
-              body: 'Saving your value time & minimize risk in tax compliance for your long term business.',
+              title: 'Taxation Service',
+              body: " We handle individual, corporate, and indirect taxes with precision and clarity.",
             },
             {
-              img: 'logo.png',
+              img: 'tax.jpg',
               url: 'service3',
-              title: 'Tax Services & Advisory',
-              body: 'Saving your value time & minimize risk in tax compliance for your long term business.',
+              title: 'Accounting & Bookkeeping ',
+              body: 'We deliver accurate, timely, and compliant financial records to help you make informed decisions.',
             },
             {
-              img: 'service.webp',
+              img: 'account.jpg',
               url: 'service4',
-              title: 'Accounting Services',
-              body: 'We offer comprehensive bookkeeping services, Save your time to focus on core business activities.',
+              title: 'Trademark & IP Services ',
+              body: 'We help you register trademarks and manage intellectual property rights to safeguard your business identity in a competitive market.',
             },
 
        ],
        weDo: [
         {
-          title: 'Business Registration',
-          body: 'We can help you with the whole company registration process from scratch. We guarantee to provide services with the highest level of professionalism at reasonable prices, by finding the maximum efficiency and effective ways in solving our clients problems.',
+          title: 'Business Registration & Compliance',
+          body: 'Starting a business? We simplify the process of business formation and ensure all legal and regulatory requirements are met. We assist with entity selection, registration, licensing, and ongoing compliance.',
           overview: [
             'Get Quick Approval & Fast Service',
             'Work with our certified tax agent',
@@ -90,8 +90,8 @@ export default {
           ],
         },
         {
-          title: 'Tax Services',
-          body: 'The only remaining tax regime in Cambodia is the Real Regime. Tax System Accounting is a must as accounting for business transactions is never the same anymore especially for registered companies and businesses. We can assist you to manage your income tax compliance obligations and to inform you of any tax updates that may affect your company or business.',
+          title: 'Taxation Services',
+          body: 'Our tax experts provide strategic planning and reliable filing services to minimize liabilities and ensure compliance with all regulatory requirements. We handle individual, corporate, and indirect taxes with precision and clarity.',
           overview: [
             'Help You on Tax Declaration',
             'Minimize Risk on Tax Challenges',
@@ -105,8 +105,8 @@ export default {
           ],
         },
         {
-          title: 'Accounting Services',
-          body: 'We offer professional bookkeeping services in Phnom Penh, Cambodia, Our accountants can prepare your accounts on a monthly, quarterly or yearly basis of Tax Submission.',
+          title: 'Accounting & Bookkeeping',
+          body: 'We deliver accurate, timely, and compliant financial records to help you make informed decisions. From day-to-day bookkeeping to financial reporting, we ensure your business stays on track.',
           overview: [
             'Improve Accuracy & Transparency',
             'Helps You Know Financial Situation',
@@ -120,8 +120,8 @@ export default {
           ],
         },
         {
-          title: 'Accounting Software',
-          body: 'Are you looking for accounting software in Cambodia? The financial health of a business can be controlled & managed by using accounting software.',
+          title: 'Trademark & IP Services',
+          body: "Protect your brand with confidence. We help you register trademarks and manage intellectual property rights to safeguard your business identity in a competitive market.Whether you're an entrepreneur just starting out or an established business looking to streamline operations, BBC offers the expertise and support to help you succeed.",
           overview: [
             'Xero Accounting',
             'QNE Accounting (Support Khmer Language)',

@@ -66,7 +66,7 @@ props: [ 'weDo' ]
 
 /* Left image */
 .how-it-works-image {
-  background: url('../../assets/angkorwat.jpg') no-repeat center center;
+  background: url('../../assets/wedo.jpg') no-repeat center center;
   background-size: cover;
   flex: 1;
   clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);

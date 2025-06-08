@@ -2,7 +2,7 @@
   <div class="home-overview-content">
     <div class="home-content-box">
       <div class="home-overview-text">
-        <h1>Welcome, Benyamin Co.</h1>
+        <h1>Welcome, BENYAMIN Business CO., LTD.</h1>
         <p>
           We are a licensed tax and trademark agent company. We offer professional services of business and trademark registration, taxation and book keeping. We have qualified staff with high professional ethics and expertise who would provide you good consultancy and bring growth to your businesses with least cost and time.
         </p>

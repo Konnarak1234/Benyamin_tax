@@ -5,27 +5,27 @@
         <ul>
           <li :class="{activeService: this.service === 1}">
             <router-link :to="{name: 'service1'}">
-              <span class="material-symbols-outlined"  @click="toggleService('Service - Business Registration')">article</span>
+              <span class="material-symbols-outlined"  @click="toggleService('Service - Business Registration & Compilance')">article</span>
             </router-link>
-            Business Registration
+            Business Registration & Compliance
           </li>
           <li :class="{activeService: this.service === 2}">
             <router-link :to="{name: 'service2'}">
-              <span class="material-symbols-outlined"  @click="toggleService('Service - Trademark Registration')">paid</span>
+              <span class="material-symbols-outlined"  @click="toggleService('Service - TAX Services')">paid</span>
             </router-link>
-            Trademark Registration
+            Taxation Service 
           </li>
           <li :class="{activeService: this.service === 3}">
             <router-link :to="{name: 'service3'}">
-              <span class="material-symbols-outlined"  @click="toggleService('Service - TAX Services')">calculate</span>
+              <span class="material-symbols-outlined"  @click="toggleService('Service - Accounting & Bookkeeping Services')">calculate</span>
             </router-link >
-            TAX Services
+            Accounting & Bookkeeping 
           </li>
           <li :class="{activeService: this.service === 4}">
             <router-link :to="{name: 'service4'}">
-              <span class="material-symbols-outlined"  @click="toggleService('Service - Bookkeeping Services')">book_2</span>
+              <span class="material-symbols-outlined"  @click="toggleService('Service - Trademark & IP service')">book_2</span>
             </router-link>
-            Bookkeeping Services
+            Trademark & IP Services
           </li>
         </ul>
       </div>

@@ -9,7 +9,7 @@
       </router-link>
       
       <router-link to='/' @click="handlePageName('Home page')">
-        <h3>Benyamin</h3>
+        <h3>BENYAMIN</h3>
       </router-link>
       
     </div>
@@ -19,7 +19,7 @@
         <div class="phone-content">
           <span class="material-symbols-outlined">phone_iphone</span>
           <div class="phone-info">
-            <span>Call Us Today</span><br><strong>+85598726999</strong>
+            <span>Call Us Today</span><br><strong>+85598481115</strong>
           </div>
         </div>       
       </div>
@@ -27,7 +27,7 @@
         <div class="email-content">
           <span class="material-symbols-outlined">mail</span>
           <div class="mail-info">
-            <span>Email Us Now</span><br><strong>info@benyamin.com</strong>
+            <span>Email Us Now</span><br><strong>boryuk@gmail.com</strong>
           </div>
         </div>
       </div>
@@ -54,13 +54,13 @@
           <router-link to="/service" @click="handlePageName('Service Page')">SERVICE</router-link> 
         </div>
         <div class="dropdown-menu">
-          <router-link :to='{name: "service1"}' @click="handlePageName('Sevices - Business Registration')">BUSINESS REGISTRATION</router-link>
+          <router-link :to='{name: "service1"}' @click="handlePageName('Sevices - Business Registration & Compilance')">BUSINESS REGISTRATION & COMPILANCE</router-link>
           <hr>
-          <router-link :to='{name: "service2"}' @click="handlePageName('Sevices - Trademark Registration')">TRADEMARK REGISTRATION</router-link>
+          <router-link :to='{name: "service2"}' @click="handlePageName('Sevices - TAX Services')">TAX SERVICE</router-link>
           <hr>
-          <router-link :to='{name: "service3"}' @click="handlePageName('Sevices - TAX Services')">TAX SERVICE</router-link>
+          <router-link :to='{name: "service3"}' @click="handlePageName('Sevices - Accounting & Bookkeeping Services')">ACCOUNTING & BOOKKEPPING SERVICE</router-link>
           <hr>  
-          <router-link :to='{name: "service4"}' @click="handlePageName('Sevices - Bookkeeping Services')">BOOKKEPPING SERVICE</router-link>
+          <router-link :to='{name: "service4"}' @click="handlePageName('Sevices - Trademark & IP service')">TRADEMARK & IP SERVICES</router-link>
         </div>
       </div>
       <!-- Software Dropdown -->
@@ -74,7 +74,7 @@
       <router-link :to="{name:'blog'}"  @click="handlePageName('Blog Page')">BLOG</router-link>
       <router-link :to="{name:'contact'}" @click="handlePageName('Contact Page')">CONTACT</router-link>
     </nav>
-    <button class="cta-button desktop-nav">Inquiry Today</button>
+    <router-link :to="{name: 'contact'}"><button class="cta-button desktop-nav">Inquiry Today</button></router-link>
   </div>
   <h1 class="navbar-page-title">{{ pagename }}</h1>
 </header>
@@ -101,13 +101,13 @@
           </div>
           <div v-show="showServicesDropdown" class="mobile-dropdown-menu">
             <hr>
-            <router-link :to="{name: 'service1'}" @click="toggleSidebar">Business Registration</router-link>
+            <router-link :to="{name: 'service1'}" @click="toggleSidebar">BUSINESS REGISTRATION & COMPILANCE</router-link>
             <hr>
-            <router-link :to="{name: 'service2'}" @click="toggleSidebar">Trademark Registration</router-link>
+            <router-link :to="{name: 'service2'}" @click="toggleSidebar">TAX SERVICE</router-link>
             <hr>
-            <router-link :to="{name: 'service3'}" @click="toggleSidebar">TAX Services</router-link>
+            <router-link :to="{name: 'service3'}" @click="toggleSidebar">ACCOUNTING & BOOKKEPPING SERVICE</router-link>
             <hr>
-            <router-link :to="{name: 'service4'}" @click="toggleSidebar">Bookkeeping Services</router-link>
+            <router-link :to="{name: 'service4'}" @click="toggleSidebar">TRADEMARK & IP SERVICES</router-link>
           </div>
         </div>
         <!-- Software Dropdown -->
@@ -198,7 +198,7 @@ data() {
 .logo img {
   height: 80px;
   display: block;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 1px solid #111c26;
   margin: 0 10px;
   cursor: pointer;

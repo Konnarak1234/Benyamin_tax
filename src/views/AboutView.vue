@@ -3,23 +3,26 @@
   <div class="about-container">
     <div class="about-content">
       <div class="about-image">
-        <img src="../assets/angkorwat.jpg" alt="About us">
+        <img src="../assets/about.jpg" alt="About us">
         <div class="image-border"></div>
       </div>
       <div class="about-text">
-        <p><strong>GIANTBROTHER ADVISORY CO., LTD</strong> s the one of professional accounting firm, business registration, tax agent & accounting software company in Cambodia, Our firm has been providing outstanding service to our clients because of our dedication to three underlying principles: professionalism, responsiveness, and quality.</p>
-        <p>A big part of that value is our legendary customer care because we know what a difference a top-notch accounting specialist makes in your business experience. That is why we devote substantial training and resources developing a team of the best accounting specialists to serve our clients.</p>
-        <p>We provide full-fledged professional services including accounting services, tax services, accounting software (Xero Cloud Accounting, QuickBooks, Sage 50, QNE Business Accounting) and business advisory and all kinds of business registration & trademarks registration.</p>
+        <p><strong>Welcome to Benyamin Business Co., Ltd.</strong>
+        Benyamin Business Co., Ltd. is a trusted provider of professional business services, offering expert solutions in accounting, taxation, business registration, and trademark protection. Our mission is to empower entrepreneurs, startups, and established companies with the tools, insights, and compliance support needed to thrive in today’s competitive marketplace.</p>
+        <p>With a strong commitment to accuracy, efficiency, and client success, we take pride in being a one-stop partner for businesses seeking reliable financial and legal support. Whether you're launching a new venture, managing tax obligations, or safeguarding your brand, Benyamin Business Co., Ltd. is here to guide you every step of the way.</p>
+        <p>At BBC, we are a dedicated team of finance, legal, and business professionals committed to empowering individuals and businesses through expert guidance and comprehensive support. Specializing in accounting, taxation, business registration, and trademark services, we provide end-to-end solutions tailored to your unique goals.
+        With a focus on accuracy, compliance, and strategic growth, we work with startups, SMEs, and established enterprises to simplify complexity and unlock long-term value. Whether you're launching a new business, managing financial obligations, or protecting your brand, our team ensures clarity, confidence, and peace of mind every step of the way.
+        Driven by integrity, transparency, and results, BBC is more than a service provider — we are your trusted partner in business success.</p>
       </div>
     </div>
 
     <div class="info-box">
       <div class="info-column">
         <h3>Who we are</h3>
-        <p>We are one of the professional accounting firm & accounting software company in Cambodia...</p>
+        <p>we are a dedicated team of finance, legal, and business professionals committed to empowering individuals and businesses through expert guidance and comprehensive support.</p>
 
         <h3>Our Vision</h3>
-        <p>"To Deliver the Highest Level of Professional Services with Digital Solutions to Our Clients".</p>
+        <p>"To be the leading provider of business support services in the region.".</p>
       </div>
 
       <div class="info-column">
@@ -27,7 +30,7 @@
         <p>We offer a full spectrum of business registration, accounting services, tax service, and accounting software designed to create efficient, cost-effective answers...</p>
 
         <h3>Our Mission</h3>
-        <p>"Be the Well-Recognized Business Advisory Company in Cambodia".</p>
+        <p>"To simplify the process of starting and managing a business for our clients while ensuring compliance with legal and financial regulations.".</p>
       </div>
     </div>
   </div>

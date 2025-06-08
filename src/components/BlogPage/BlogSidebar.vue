@@ -7,25 +7,25 @@
             <router-link :to="{name: 'service1'}">
               <span class="material-symbols-outlined">article</span>
             </router-link>
-            Business Registration
+            Business Registration & Compliance
           </li>
           <li :class="{activeService: this.blog === 2}">
             <router-link :to="{name: 'service2'}">
               <span class="material-symbols-outlined">paid</span>
             </router-link>
-            Trademark Registration
+            Taxation Service
           </li>
           <li :class="{activeService: this.blog === 3}">
             <router-link :to="{name: 'service3'}">
               <span class="material-symbols-outlined">calculate</span>
             </router-link >
-            TAX Services
+             Accounting & Bookkeeping 
           </li>
           <li :class="{activeService: this.blog === 4}">
             <router-link :to="{name: 'service4'}">
               <span class="material-symbols-outlined">book_2</span>
             </router-link>
-            Bookkeeping Services
+           Trademark & IP Services 
           </li>
         </ul>
       </div>

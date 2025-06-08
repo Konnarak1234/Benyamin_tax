@@ -10,7 +10,7 @@
       </p>
     </div>
     <div class="home-cta-button">
-      <router-link to="">CONTACT US →</router-link>
+      <router-link :to="{name: 'contact'}">CONTACT US →</router-link>
     </div>
   </div>
 </div>

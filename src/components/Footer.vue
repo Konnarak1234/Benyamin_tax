@@ -9,7 +9,7 @@
               </router-link>
               
               <router-link to='/' @click="handlePageName('Home page')">
-                <h3>Benyamin</h3>
+                <h3>BENYAMIN</h3>
               </router-link>
               
             </div>
@@ -18,18 +18,23 @@
             </label>
             <ul class="footer-container-media">
               <li>
-                <a href="https://google.com">
+                <a href="https://www.facebook.com/share/p/16mL3UHECz/?mibextid=wwXIfr">
                   <img src="https://img.icons8.com/ios-filled/50/facebook--v1.png" alt="facebook--v1"/>
                 </a>
               </li>
               <li>
-                <a href="https://google.com">
+                <a href="https://t.me/BoryUk777">
                   <img src="https://img.icons8.com/ios-filled/50/telegram.png" alt="telegram"/>
                 </a>
               </li>
               <li>
-                <a href="https://google.com">
-                  <img src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/>
+                <a href="https://api.whatsapp.com/qr/IABTQACGSL42I1?autoload=1&app_absent=0">
+                  <img src="https://img.icons8.com/ios-filled/50/whatsapp--v1.png" alt="whatsapp--v1"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.wechat.com">
+                  <img src="https://img.icons8.com/sf-black-filled/64/weixing.png" alt="weixing"/>
                 </a>
               </li>
             </ul>
@@ -37,17 +42,22 @@
       </div>
 
       <div class="footer-section">
-        <h4>Contact</h4>
-        <p>Phone: +85598726999</p>
-        <p>Email: info@benyamin.com</p>
+        <h4 >Services</h4>
+        <router-link :to="{name: 'service1'}"><p>Business Registration & Compliance</p></router-link>
+        <div class="footer-spacing"></div>
+        <router-link :to="{name: 'service2'}"><p>Taxation Service</p></router-link>
+        <div class="footer-spacing"></div>
+        <router-link :to="{name: 'service3'}"><p>Accounting & Bookkeeping</p></router-link>
+        <div class="footer-spacing"></div>
+        <router-link :to="{name: 'service4'}"><p>Trademark & IP Services</p></router-link>
       </div>
 
-      
       <div class="footer-section">
-        <h4 >Developer</h4>
-        <a href="" class="footer-section-developer">Ya Hathkonnarak</a>
+        <router-link :to="{name: 'contact'}"><h4>Contact</h4></router-link>
+        <p>Phone: +85598481115</p>
+        <p>Email: boryuk@gmail.com</p>
       </div>
-      
+
     </div>
 
     
@@ -68,6 +78,9 @@ export default {
 </script>
 
 <style>
+.footer-spacing{
+  padding: 4px 0;
+}
 .site-footer {
   background-color: #0d3b66;
   color: #fff;
@@ -106,7 +119,7 @@ export default {
 .footer-logo {
   height: 60px;
   display: block;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 1px solid #111c26;
   margin: 0 10px;
 }
@@ -164,11 +177,12 @@ align-items: center;
 
 .footer-section a {
   color: #fff;
+  text-decoration: none;
 }
 
 
 .footer-section a:hover {
-  text-decoration: underline;
+  color: #ffb703;
 }
 
 .footer-section-developer{
@@ -190,6 +204,7 @@ align-items: center;
   color: #ddd;
 
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {
