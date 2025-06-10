@@ -2,9 +2,9 @@
   <div class="home-overview-content">
     <div class="home-content-box">
       <div class="home-overview-text">
-        <h1>Welcome, BENYAMIN Business CO., LTD.</h1>
+        <h1>Welcome to BENYAMIN Business CO., LTD.</h1>
         <p>
-          We are a licensed tax and trademark agent company. We offer professional services of business and trademark registration, taxation and book keeping. We have qualified staff with high professional ethics and expertise who would provide you good consultancy and bring growth to your businesses with least cost and time.
+          We are a licensed professional firm specializing in taxation, accounting, business and trademark registration.  We have qualified team with high professional ethics and expertise who would provide you good consultancy and bring growth to your businesses with least cost and time.
         </p>
         <a href="#more">MORE →</a>
       </div>
@@ -36,7 +36,7 @@ export default {
 .home-overview-img {
   width: 400px;
   height: 30vh;
-  background: url('../../assets/angkorwat.jpg');
+  background: url('../../assets/wedo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -54,19 +54,19 @@ export default {
               body: 'We simplify the process of business formation and ensure all legal and regulatory requirements are met.',
             },
             {
-              img: 'trademark.jpg',
+              img: 'tax.jpg',
               url: 'service2',
               title: 'Taxation Service',
               body: " We handle individual, corporate, and indirect taxes with precision and clarity.",
             },
             {
-              img: 'tax.jpg',
+              img: 'account.jpg',
               url: 'service3',
               title: 'Accounting & Bookkeeping ',
               body: 'We deliver accurate, timely, and compliant financial records to help you make informed decisions.',
             },
             {
-              img: 'account.jpg',
+              img: 'trademark.jpg',
               url: 'service4',
               title: 'Trademark & IP Services ',
               body: 'We help you register trademarks and manage intellectual property rights to safeguard your business identity in a competitive market.',
@@ -76,61 +76,73 @@ export default {
        weDo: [
         {
           title: 'Business Registration & Compliance',
+          img: 'company-registration.jpg',
           body: 'Starting a business? We simplify the process of business formation and ensure all legal and regulatory requirements are met. We assist with entity selection, registration, licensing, and ongoing compliance.',
           overview: [
             'Get Quick Approval & Fast Service',
-            'Work with our certified tax agent',
+            'Work with our certified professional agent',
             'Reasonable price',
+            'Work for all type of bussiness'
           ],
           process: [
             'Consulting & Prepare Documents',
             'Ministry of Commerce REGISTRATION',
             'PATENT AND VAT REGISTRATION',
+            'small business, partnership, corporation, QIP '
 
           ],
         },
         {
           title: 'Taxation Services',
+          img: 'tax.jpg',
           body: 'Our tax experts provide strategic planning and reliable filing services to minimize liabilities and ensure compliance with all regulatory requirements. We handle individual, corporate, and indirect taxes with precision and clarity.',
           overview: [
-            'Help You on Tax Declaration',
-            'Minimize Risk on Tax Challenges',
-            'Solve your tax issues',
+            'Consultation on taxation',
+            'Representative service for tax solution',
+            'Monthly tax return',
+            'Annual tax return',
           ],
           process: [
-            'Tax Advisory and Consulting',
-            'Tax Declaration & Documentation',
-            'Monthly & Yearly Tax Return',
+            'Consultation on taxation',
+            'Representative service for tax solution',
+            'Monthly tax return',
+            'Annual tax return',
 
           ],
         },
         {
           title: 'Accounting & Bookkeeping',
+          img: 'account.jpg',
           body: 'We deliver accurate, timely, and compliant financial records to help you make informed decisions. From day-to-day bookkeeping to financial reporting, we ensure your business stays on track.',
           overview: [
-            'Improve Accuracy & Transparency',
+            'Consultation on bookkeeping',
+            'Financial analysis',
             'Helps You Know Financial Situation',
             'Lowering the cost of operations',
           ],
           process: [
-            'Work at Our Office, Use Our Software',
-            'Client has less transactions',
-            'Monthly, Quarterly, Annually (Regular)',
+            'Consultation on bookkeeping',
+            'Financial analysis',
+            'Bookkeeping service',
+            'Financial report service',
 
           ],
         },
         {
           title: 'Trademark & IP Services',
+          img: 'trademark.jpg',
           body: "Protect your brand with confidence. We help you register trademarks and manage intellectual property rights to safeguard your business identity in a competitive market.Whether you're an entrepreneur just starting out or an established business looking to streamline operations, BBC offers the expertise and support to help you succeed.",
           overview: [
-            'Xero Accounting',
-            'QNE Accounting (Support Khmer Language)',
-            'QuickBooks Accounting',
+            'Mark Consultation',
+            'Domestic Mark Registration',
+            'International Mark Registration',
+            'Mark dispute service',
           ],
           process: [
-            'Project Management',
-            'Implementation',
-            'Training & Support',
+            'Mark Consultation',
+            'Domestic Mark Registration',
+            'International Mark Registration',
+            'Mark dispute service',
           ],
         },
        ],

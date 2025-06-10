@@ -14,7 +14,7 @@
               
             </div>
             <label class="footer-container-address" >
-              Adress: No. 1588 St. Lum, Sangkat Krang Thnung, Khan Sen Sok, Phnom Penh, Cambodia.
+              Adress: No. 1588 St. 610K-3, Phum Krang Angkrorng, Sangkat Krang Thnung, Khan Sen Sok, Phnom Penh, Cambodia.
             </label>
             <ul class="footer-container-media">
               <li>

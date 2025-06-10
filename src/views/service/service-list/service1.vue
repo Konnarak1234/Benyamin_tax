@@ -39,7 +39,7 @@
         <p>Step 3: Partner Information</p>
         <p>Step 4: Manager Information</p>
 
-        <p>With GIANTBROTHER, we can help you with the whole company registration process from scratch. Our company registration package will include the following:</p>
+        <p>With BENYAMIN Business CO., LTD. we can help you with the whole company registration process from scratch. Our company registration package will include the following:</p>
         <ul>
           <li>Researching & Register Your Company Name</li>
           <li>Preparation of Memorandum and Articles of Association (M&A)</li>

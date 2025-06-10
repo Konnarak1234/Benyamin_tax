@@ -10,7 +10,7 @@
             <div class="contact-spacing"></div>
             <p><span>Email:</span> boryuk@gmail.com</p>
             <div class="contact-spacing"></div>
-            <p><span>Adress:</span> No. 1588 St. Lum, Sangkat Krang Thnung, Khan Sen Sok, Phnom Penh, Cambodia.</p>
+            <p><span>Adress:</span>Adress: No. 1588 St. 610K-3, Phum Krang Angkrorng, Sangkat Krang Thnung, Khan Sen Sok, Phnom Penh, Cambodia.</p>
         </div>
         <div class="contact-field" v-if="toggleCtn === 1">
             <form v-on:submit.prevent="sendEmail">
@@ -61,10 +61,10 @@ methods: {
     },
     sendEmail(){
         emailjs.send(
-            'service_atrdgmw',
-            'template_cubjg76',
+            'service_01319d8',
+            'template_vumld4r',
             this.form,
-            'pCuoakKHNYLIqBMsB'
+            'template_cubjg76'
         ).then( // asycronize method
             (result)=> {
                 alert('Email send!')

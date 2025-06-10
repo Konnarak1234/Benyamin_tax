@@ -1,19 +1,24 @@
 <template>
     <div class="service-container">
         <div class="service3-content">
-            <h2>ARE YOU LOOKING FOR TAX PREPARATION SERVICES?</h2>
-            <p>We are able to consult and advise on tax service and submission requirements as well as to review your monthly Tax Submission in Cambodia.</p>
-            <p>The only remaining tax regime in Cambodia is the Real Regime. Tax System Accounting is a must as accounting for business transactions is never the same anymore especially for registered companies and businesses. We can assist you to manage your income tax compliance obligations and to inform you of any tax updates that may affect your company or business.</p>
-            <br>
-            <p><u>VAT Tax Registration</u></p>
-            <p>Taxable person who makes taxable supplies and the taxable turnover for accumulative up to 12 months exceeds the threshold of KHR 250 million (approx. USD 62,500) is required to be registered for VAT under mandatory registration.</p>
-            <br>
-            <p><u>Tax Declaration or Submission</u></p>
-            <p>The laws of Cambodia requires all organisations to submit monthly accounting documentation. This includes the submitting of Withholding Tax (WHT), Value Added Tax (VAT) as well as relevant others tax payments. Our experienced team of qualified accountants can manage all of these submissions on your behalf in a well organised and stress free manner.</p>
-            <br>
-            <p><u>Tax Advisory</u></p>
-            <p>Our monthly accounting service in Cambodia takes away all of the stress and hassle. We will need to know who is the primary contact in your office and we will do the rest.</p>
-        </div>
+              <h2>ENDING YOUR FRUSTRATION & COMPLEXITY IN BOOKKEEPING</h2>
+        <br>
+        <p>Companies and businesses registered in Cambodia need to maintain proper accounts to comply with various requirements and legislation in Cambodia such as Income Tax, VAT Return, and Withholding Tax.
+
+        It is important to maintain updated financial records of all business transactions. Financial records are useful for day to day business references and are important for the entire accounting process. As such, bookkeeping is necessary for any business. Bookkeeping services involve the process of taking in, grouping relevant financial documents, referencing and recording all financial transactions of a business or company through proper accounting methods.
+
+        We offer professional bookkeeping services in Phnom Penh, Cambodia. We assign dedicated staff to our clients for their bookkeeping requirements. Bookkeeping job scope includes maintaining full set accounts, accounts receivables, accounts payable, bank reconciliations and etc.</p>
+        <br>
+        <h2>Why Outsource Bookkeeping?</h2>
+        <br>
+        <ul>
+          <li>Reduce mistakes and oversights commonly made by those lacking relevant expertise.</li>
+          <li>When you are a startup or a small business and you hate accounting.</li>
+          <li>Outsource bookkeeping saves money, sure, it costs money to hire someone else to do the job, but it makes money by allowing you to increase production.</li>
+          <li>Outsourced bookkeeping reduces stress and helps prevent burnout.</li>
+          <li>When you are not responsible for all of the administrative work, you have more time to focus on the work that you do best, and in this case, time equals money.</li>
+        </ul>
+      </div>
         <ServiceSidebar :service="3" @serviceClick="handleService"/>
     </div>
 </template>

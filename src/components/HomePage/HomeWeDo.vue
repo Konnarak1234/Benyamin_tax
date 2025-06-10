@@ -2,7 +2,7 @@
   <div class="how-it-works-wrapper">
     <div class="how-it-works-container">
       <!-- Left image with clip-path -->
-      <div class="how-it-works-image"></div>
+      <div class="how-it-works-image"><img :src="require(`@/assets/${weDo.img}`)" alt="We Do" /></div>
 
       <!-- Middle content -->
       <div class="how-it-works-content">
@@ -17,6 +17,9 @@
         </div>
         <div class="highlight-bar">
           <span>{{ weDo.overview[2] }}</span>
+        </div>
+        <div class="highlight-bar">
+          <span>{{ weDo.overview[3] }}</span>
         </div>
       </div>
 
@@ -36,6 +39,11 @@
         <div class="step">
           <div class="circle">3</div>
           <p>{{ weDo.process[2] }}</p>
+        </div>
+        <hr />
+        <div class="step">
+          <div class="circle">4</div>
+          <p>{{ weDo.process[3] }}</p>
         </div>
       </div>
     </div>
@@ -66,11 +74,17 @@ props: [ 'weDo' ]
 
 /* Left image */
 .how-it-works-image {
-  background: url('../../assets/wedo.jpg') no-repeat center center;
-  background-size: cover;
   flex: 1;
-  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
   min-height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.how-it-works-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
 }
 
 /* Middle content */
